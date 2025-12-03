@@ -1,0 +1,19 @@
+{
+  "model": "Random Forest",
+  "date": "2025-10-27",
+  "rmse": 163.76239812965747,
+  "r2": 0.9961936794221401,
+  "features": [
+    "log_workforce",
+    "log_capacity",
+    "log_production",
+    "Region_Asia Pacific",
+    "Region_Central & South America",
+    "Region_Eurasia",
+    "Region_Europe",
+    "Region_Middle East",
+    "Region_North America",
+    "capacity_utilization",
+    "log_capacity_per_worker"
+  ]
+}
