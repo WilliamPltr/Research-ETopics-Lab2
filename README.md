@@ -24,30 +24,6 @@ This lab implements a full ML pipeline to predict steel production (ttpa - thous
 - **Hyperparameter Optimization**: Optuna
 - **Model Persistence**: joblib
 
-## 📊 Key Features
-
-1. **Data Preparation**
-   - Data cleaning and handling missing values
-   - Log transformations for skewed features
-   - One-hot encoding for categorical variables
-   - Feature engineering (capacity per worker, capacity utilization)
-
-2. **Model Training & Evaluation**
-   - Baseline model for comparison
-   - Multiple model comparison (Linear, Ridge, Random Forest)
-   - 5-fold cross-validation
-   - Hyperparameter tuning with RandomizedSearchCV and Optuna
-
-3. **Experiment Tracking**
-   - MLflow integration for tracking experiments
-   - Model parameters and metrics logging
-   - Model versioning and storage
-
-4. **Model Performance**
-   - Random Forest: R² = 0.973 (best model)
-   - Linear Regression: R² = 0.724
-   - RMSE and MAE metrics tracked
-
 ## 🚀 Getting Started
 
 ### Installation
@@ -99,8 +75,4 @@ The Random Forest model achieved excellent performance with 97.3% R² score, sig
 
 ## 📝 License
 
-See LICENSE file for details.
-
-## 👤 Author
-
-William Pelletier - ESSEC Business School
+MIT LICENSE
